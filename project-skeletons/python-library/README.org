@@ -1,0 +1,20 @@
+# -*- mode:org -*-
+#+TITLE: __PROJECT-NAME__
+#+STARTUP: indent
+#+OPTIONS: toc:nil
+** Summary
+
+__SUMMARY__
+
+** Contributing
+
+Yes, please do! See [CONTRIBUTING][] for guidelines.
+
+## License
+
+See  [[file:COPYING]]
+Copyright (c) __YEAR__ __USER-NAME__.
+
+
+[CONTRIBUTING]: file:CONTRIBUTING.org
+[COPYING]: ./__LICENSE-FILE-NAME__

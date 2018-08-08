@@ -1,5 +1,5 @@
 PYTHON_BIN = __PYTHON-BIN__
-VIRTUALENV = ~/.virtualenvs/__PROJECT-NAME__
+VIRTUALENV = ~/.emacs.d/var/__PROJECT-NAME__
 
 all : $(VIRTUALENV)
 
@@ -14,6 +14,3 @@ tooling : $(VIRTUALENV)
 	pip install jedi
 	pip install epc
 	pip install pylint
-	pip install -e "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
-	cd $VIRTUAL_ENV/src/pymacs
-	make
